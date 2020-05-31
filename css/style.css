@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Dancing+Script&family=Indie+Flower&family=Montserrat:wght@200;400&family=Open+Sans&family=Oswald&family=Roboto+Condensed:wght@300&family=Roboto:wght@300;700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Dancing+Script&family=Indie+Flower&family=Montaga&family=Montserrat:wght@200;400&family=Open+Sans&family=Oswald&family=Roboto+Condensed:wght@300&family=Roboto:wght@300;700&family=Shadows+Into+Light&display=swap');
+
+/*
+
+=============Navbar style===============
+
+*/
+
+* , *:after ,*:before{
+	
+	margin:0;
+	padding:0;
+}
+
+
+body {
+	
+font-family: 'Amatic SC', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+ 	
+}
+
+.container {
+	width:85%;
+	margin:auto;
+}
+
+
+.navbar {
+	padding:20px 0px;
+	overflow:hidden;
+	background: #ddd;
+	position:relative;
+	
+}
+
+
+
+.navbar .logo{
+width:50%;
+float:left;	
+	
+}
+
+
+.navbar .logo .logo-text{
+	font-size:30px;
+	
+	
+}
+
+.navbar input , .navbar label{
+position:absolute;
+top:15px;
+right:25px;	
+	
+}
+
+.navbar input{
+display:none;	
+}
+
+.navbar label{
+display:block;
+width:110px;
+height:105px;
+background:url('../images/menu.png') no-repeat;
+background-size:cover;
+padding:20px;
+cursor:pointer;
+	
+}
+
+.navbar label:hover{
+	background-color: #808080;
+	
+}
+
+.navbar input:checked ~ .ul-list{
+	display:block;
+}
+
+
+.navbar .ul-list{
+	width:50%;
+	float:left;
+	list-style:none;
+}
+.navbar .ul-list .list-item {
+display : inline-block;	
+}
+
+.navbar .ul-list .list-item a {
+	
+	display:block;
+	color:#222;
+	text-decoration:none;
+	padding:10px 15px;
+	
+}
+
+.navbar .ul-list .list-item a:hover {
+	color:#fff;
+}
+
+
+
+
+/* media query */
+
+@media(min-width :992px){
+	.navbar label{
+	display:none;
+	
+	}
+}
+
+
+@media (max-width:991px){
+	.navbar .logo{
+	width:100%;
+    float:none;
+	}
+	
+	.navbar .logo .logo-text {
+	font-size:93px;
+	
+	
+}
+	
+	.navbar .ul-list{
+		
+	width:100%;
+	float:none;
+	margin-top:20px;
+	display:none;
+}
+
+.navbar .ul-list .list-item {
+	font-size:50px;
+display :block;	
+text-align:center;
+}
+	
+	}
+	
+	
+	/*
+
+=============Home style===============
+
+*/
+	
+.home {
+height:160px;
+background-color:#fff;
+background-size:cover;
+background-position:center;
+padding:138px 0px 0px 30px;
+text-align:center;
+
+}
+
+.home{
+border-bottom-style:inset;	
+border-bottom: 7px inset ; 
+margin:0px 192px 0px 192px;
+}	
+	
+.home .home-information .home-info{
+
+font-size:30px;
+}
+
+
+
+@media(max-width :991px){
+	
+		.home {
+		overflow-y: hidden;
+        overflow-x: hidden;
+		height:667px;
+		border-bottom-style:inset;	
+        border-bottom: 7px inset;
+		margin:20px;
+		
+		}
+		.home .home-information .home-info{
+
+		font-size:72px;
+		}
+		.home .home-information .home-desc{
+			
+			font-size:45px;
+		
+		}
+		
+		
+}
+
+	
+.eduction{
+display:block;
+height:160px;
+background:url('../images/PNU.jpg') no-repeat;
+background-size:100px;
+background-position:73% 45%;
+padding:138px;
+text-align:left;	
+
+}
+
+
+
+.eduction{	
+border-bottom-style:inset;	
+border-bottom: 7px inset ; 
+margin:0px 192px 0px 192px;	
+}
+
+
+
+.eduction .ed-title .ed-info{
+padding:20px 0px 0px 40px;
+font-size:50px;
+	
+}	
+
+
+/*
+
+=============Education media=================
+
+*/	
+
+@media(max-width :991px){
+	
+		.eduction {
+		overflow-y: hidden;
+        overflow-x: hidden;
+		height:507px;
+		border-bottom-style:inset;	
+        border-bottom: 7px inset;
+		margin:20px;
+		background:url('../images/PNU.jpg') no-repeat;
+		background-size:213px;
+		background-position:95% 45%;	
+	
+		
+		}
+		.eduction .ed-title {
+
+		font-size:72px;
+		}
+		.eduction  .ed-info{
+			
+			font-size:45px;
+		
+		}
+		
+		
+}
+	
+	
