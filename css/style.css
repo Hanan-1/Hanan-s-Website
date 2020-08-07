@@ -214,7 +214,7 @@ font-size:20px;
         padding-bottom:280px;
 		height:667px;
 		border-bottom-style:inset;	
-        border-bottom: 7px inset #e5e5e5;
+        border-bottom: 7px inset ;
 		margin:20px;
 		
 		}
@@ -279,7 +279,7 @@ font-size:24px;
         overflow-x: hidden;
 		height:507px;
 		border-bottom-style:inset;	
-        border-bottom: 7px inset #e5e5e5;
+        border-bottom: 7px inset ;
 		margin:20px;
 		background:url('../images/grr.jpg'), url('../images/PNU.jpg');
 		background-size:117px,160px;
@@ -402,7 +402,7 @@ padding-bottom:155px;
 		background-position:103% -11%;
 		height:507px;
 		border-bottom-style:inset;	
-        border-bottom: 7px inset #e5e5e5;
+        border-bottom: 7px inset ;
 		margin:20px;
 		
 		
@@ -476,7 +476,7 @@ padding:20px 20px 74px ;
         background-position:14% 38%, 47% 36%,82% 37%, 15% 79%,47% 79%, 87% 77%;
 		height:715px;
 		border-bottom-style:inset;	
-        border-bottom: 7px inset #e5e5e5;
+        border-bottom: 7px inset ;
 		margin:20px;
 			
 	
@@ -565,7 +565,7 @@ background-position: 95% 44%,86% 66%,100% 68%,88% 92%;
 		height:507px;
 		
 		border-bottom-style:inset;	
-        border-bottom: 7px inset #e5e5e5;
+        border-bottom: 7px inset ;
 		margin:20px;
 			
 	
