@@ -7,6 +7,7 @@
 	     <meta charset ="UTF-8">
 		 <title>Hanan Portifoilo</title>
 		 <link rel="stylesheet" href="css/style.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		 
     </head>
 	
@@ -18,43 +19,116 @@
 		   <div class="container">
 		   
 		   <div class ="logo">
-		      <h2 class="logo-text">HANAN</h2>
+		      			   <h2 class="logo-text">Hanan .</h2>
+
 		   </div><!--Logo-->
 		   <input type="checkbox" id="nav">
 		   <label for="nav"></label>
 		   
 		        <ul class="ul-list">
-				<li class="list-item"><a href="#">ABOUT</a></li>
-				<li class="list-item"><a href="#">SKILLS</a></li>
-				<li class="list-item"><a href="#">EDUCTION</a></li>
-				<li class="list-item"><a href="#">PROJECTS</a></li>
-				<li class="list-item"><a href="#">CONTACT ME</a></li>
+				<li class="list-item"><a href="#H">ABOUT</a></li>
+				<li class="list-item"><a href="#E">EDUCTION</a></li>
+				<li class="list-item"><a href="#P">PROJECTS</a></li>
+				<li class="list-item"><a href="#S">SKILLS&Certifications</a></li>
+				<li class="list-item"><a href="#CO">CONTACT</a></li>
+
 				</ul><!-- ul-list-->
 		   </div><!--container-->
 	
 	   </div><!-- navbar -->
 	     
-	<div class="home">
+	<div id="H" class="home">
 	     <div class="container">
 		   <div class="home-information">
 				<h2 class="home-title"></h2>
-			   <h4 class="home-info">ABOUT ME ❥</h4>
+			   <h4 class="home-info">About me ❥</h4>
 			   <p class="home-desc">
-			   Hello. I am Hanan Bin Huzaim . I graduateed from Computer Sciences department at Princess Nora</br>University
-			   I'm intrested in Web development field and i try to improve my self in this field.
+			   I'm highly self motivated,hardworking Computer Science gradute .<br>
+			   I have always been intrested between Web design and Frontend development field.<br>
+			   A self taught looking to professionalize in this inspiring field and seeking improvment my knowledge , i have the ability to work within a team.
 			   </p>
              </div>		   
 		   </div><!--Home-->
 		  </div><!---->
-	<div class="eduction">
+	<div id="E" class="eduction">
 	<div class="container">
-	<h1 class="ed-title">EDUCTION</h1>
+	<h1 class="ed-title">Eduction</h1>
 	<p class="ed-info">Bachelor's degree in Computer Sciences Department at Princess Nora University</br> with GPA 4.11/5 , 2016-2020<p>
 	
 	</div>
 	</div>
 	
-	    <script src="js/script.js"></script>
+	<div id="P" class="projects">
+	<div class="container">
+	<h1 class="pr-title">Projects</h1>
+	<button class="collapsible">Smoke Detection Using Image Analysis - Gradution Project </button>
+  <p class="pr-info">Smoke detection some time represents an early sign of most fires. It is important to monitor air infection and its effects on human health and nature; therefore, an effective method to detect smoke is necessary. In this study, we have proposed a smoke detector by image analysis. However, the main objective of this system is the early detection of smoke or fireplace by image analysis to ensure that there is a fire condition that releases the alarm and gives voice instructions to help people get out of place. It will ensure that, by analyzing the image before the warning is issued, it does not trigger a false alarm or scare people.</p>	
+		<button class="collapsible">Pastry And Sweets Shop Website</button>
+  <p class="pr-info">Our website it is for a cake and pastry, we want to let the shoppers know what we are offer of options and they can order before the day required and be received from the shop.</p>
+  	<button class="collapsible">create database for SABTCO transportation company - database fundamenals course</button>
+  <p class="pr-info">SAPTCO database keeps track of Saptco’s staff,buses,passengers bus drivers and electronic tickets.
+‎‏SAPTCO should have many staff members .Each staff member has a unique Id,phone number ,name,salary and department. In addition Some staff manage one or more bus drivers .
+‎‏It also keeps track of the direct supervisor of each staff member. Each bus driver has a unique Id, phone number ,name, salary and nationality. Each bus driver must drive only one bus. Each bus has a unique plate_number,multi colors ,maximum number of seats and license number .
+‎‏Each passenger has a unique PID ,DOB,phone, location and name :first ,middle, and last.
+‎‏Each passenger must ride one bus. Passengers must reserve an electronic ticket before they ride the bus.
+‎‏The  electronic ticket has a unique ticket number,type and price.
+
+</p>
+	
+	</div>
+	</div>
+	
+	<div id="S" class="skills">
+	<div class="container">
+	<h1 class="sk-title">My Skills</h1>
+	<p class="skill"></p>
+
+	</div>
+	</div>
+	
+	<div id="C" class="Cert">
+	<div class="container">
+	<h1 class="c-title">Certifications</h1>
+	<div class="certi">Cisco Networking Academy - CCNA R&S (1-2-3)</div>
+	<div class="certi2">Web Development Beginner Online Course</div>
+    <div class="certi3">UI/UX with Adobe XD Online Course</div>
+	</div>
+	</div>
+	
+	<div id="CO" class="Contact">
+	<div class="container">
+	<h1 class="co-title"></h1>
+	<a href="https://www.linkedin.com/in/hanan-bin-huzaim-363909192/" class="fa fa-linkedin"></a>
+    <a href="mailto:HananHuzaim@gmail.com" class="fa fa-google"></a>
+    <a href="tel:+966543819179" class="fa fa-whatsapp"></a>
+
+	</div>
+	</div>
+	<footer>
+	<p class="copyrights">Copyright &copy; 2020 HananHuzaim<p>
+    </footer>
+
+	
+	    <script>
+		
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+			  content.style.display = "none";
+			} else {
+			  content.style.display = "block";
+			}
+		  });
+		}
+		
+		
+		
+		</script>
 		
 	</body>
 </html>	
