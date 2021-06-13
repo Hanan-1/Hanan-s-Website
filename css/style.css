@@ -541,9 +541,14 @@ padding:20px 20px 74px ;
 	font-size:27px;
 	text-align:left;
 }
+.Cert .certi4{
+	padding:183px 46px 0px 140px;
+	margin:-224px 0px 86px;
+	font-size:27px;
+	text-align:left;
+}
 
 .Cert{
-	
 	background-size:80px;
 	background-position: 75% 47%,68% 66%,78% 65%,60% 85%;
 	background-repeat:no-repeat;
